@@ -45,14 +45,14 @@ export default (store) => {
       <Route path="/meeting/viewer/:roomID" component={Meeting} />
       <Route component={Header} >
         <IndexRoute component={Home}/>
-        <Route path="/features" component={Features}/>
-        <Route path="/help" component={Help} />
-        <Route path="/help/:topicID" component={HelpTopic}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contacts" component={Contacts}/>
-        <Route path="/login" component={Login} />
+        {/*<Route path="/features" component={Features}/>*/}
+        {/*<Route path="/help" component={Help} />*/}
+        {/*<Route path="/help/:topicID" component={HelpTopic}/>*/}
+        {/*<Route path="/about" component={About}/>*/}
+        {/*<Route path="/contacts" component={Contacts}/>*/}
+        {/*<Route path="/login" component={Login} />*/}
         {/*<Route path="dashboard" component={Dashboard} onEnter={requireAuth} /> */}
-        <Route path="/dashboard" component={Dashboard} onEnter={requireAuth} />
+        <Route path="/dashboard" component={Dashboard}  />
         <Route path="*" component={NoMatch}/>
       </Route>
     </Route>

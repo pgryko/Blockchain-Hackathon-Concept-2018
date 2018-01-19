@@ -108,9 +108,9 @@ export default (app) => {
 
   app.use(session(sess));
 
-  app.use(passport.initialize());
-  app.use(passport.session());
+  // app.use(passport.initialize());
+  // app.use(passport.session());
 
   app.use(flash());
-  
+
 };
