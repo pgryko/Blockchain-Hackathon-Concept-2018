@@ -25,7 +25,7 @@
       become: yes
 
     - name: add nodejs 6.x source
-      shell: curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+      shell: curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 
     - name: install nodejs
       apt: name={{ item }} update_cache=yes state=latest
