@@ -13,7 +13,7 @@ https://github.com/choonkending/react-webpack-node
 1. Install [Node.JS][nodejs] v6 from:
 
 	```bash
-	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+	curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 	```
 
 2. Install package dependencies:
