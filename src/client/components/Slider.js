@@ -37,13 +37,8 @@ const App = React.createClass({
   render() {
     self = this;
     return (
-      <Carousel
-        slidesToScroll={'auto'}
-        >
-        <img src="/img/sliders/slider_1.jpg" onDragStart = {this.disableDragging}/>
-        <img src="/img/sliders/slider_2.jpg" onDragStart = {this.disableDragging}/>
-        <img src="/img/sliders/slider_3.jpg" onDragStart = {this.disableDragging}/>
-      </Carousel>
+      <div>
+      </div>
     )
   }
 });

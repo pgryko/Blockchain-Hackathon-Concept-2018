@@ -3,11 +3,6 @@ import { Route, IndexRoute} from 'react-router';
 import About from '../container/About';
 import Header from '../container/Header'
 import Home from '../container/Home';
-import Features from '../container/Features';
-import Help from '../container/Help';
-import HelpTopic from '../container/HelpTopic';
-import Contacts from '../container/Contacts';
-import Login from '../components/Account/LoginOrRegister';
 import Dashboard from '../container/DashBoard';
 import NoMatch from '../container/NoMatch'
 import App from '../container/App';
